@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = $_POST["email"];
     $booking_details = $_POST["booking_details"];
 
-    $to = "your@email.com"; // Change this to your email address
+    $to = "booksxtaxi@gmail.com"; 
     $subject = "New Booking Inquiry from $name";
     $message = "Name: $name\n";
     $message .= "Phone: $phone\n";
